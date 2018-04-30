@@ -1,0 +1,25 @@
+﻿  HttpResponse.cpp
+e:\cpptest\httpclient\httpclient\src\httpresponse.cpp(1): fatal error C1083: 无法打开包括文件: “HttpResponse.h”: No such file or directory
+  HttpRequest.cpp
+e:\cpptest\httpclient\httpclient\src\httprequest.cpp(1): fatal error C1083: 无法打开包括文件: “HttpRequest.h”: No such file or directory
+  HttpPut.cpp
+e:\cpptest\httpclient\httpclient\src\httpput.cpp(1): fatal error C1083: 无法打开包括文件: “HttpPut.h”: No such file or directory
+  HttpPost.cpp
+e:\cpptest\httpclient\httpclient\src\httppost.cpp(1): fatal error C1083: 无法打开包括文件: “HttpPost.h”: No such file or directory
+  HttpClientPool.cpp
+e:\cpptest\httpclient\httpclient\src\httpclientpool.cpp(1): fatal error C1083: 无法打开包括文件: “HttpClientPool.h”: No such file or directory
+  HttpPatch.cpp
+e:\cpptest\httpclient\httpclient\src\httppatch.cpp(1): fatal error C1083: 无法打开包括文件: “HttpPatch.h”: No such file or directory
+  HttpGet.cpp
+e:\cpptest\httpclient\httpclient\src\httpget.cpp(1): fatal error C1083: 无法打开包括文件: “HttpGet.h”: No such file or directory
+  HttpDelete.cpp
+e:\cpptest\httpclient\httpclient\src\httpdelete.cpp(1): fatal error C1083: 无法打开包括文件: “HttpDelete.h”: No such file or directory
+  HttpClientPoolSingleton.cpp
+e:\cpptest\httpclient\httpclient\src\httpclientpoolsingleton.cpp(1): fatal error C1083: 无法打开包括文件: “HttpClientPoolSingleton.h”: No such file or directory
+  HttpClientPoolImpl.cpp
+e:\cpptest\httpclient\httpclient\src\httpclientpoolimpl.cpp(1): fatal error C1083: 无法打开包括文件: “HttpClientPoolImpl.h”: No such file or directory
+  HttpClient.cpp
+e:\cpptest\httpclient\httpclient\src\httpclient.cpp(1): fatal error C1083: 无法打开包括文件: “HttpClient.h”: No such file or directory
+  EasyHttp.cpp
+e:\cpptest\httpclient\httpclient\src\easyhttp.cpp(1): fatal error C1083: 无法打开包括文件: “IEasyHttp.h”: No such file or directory
+  正在生成代码...
