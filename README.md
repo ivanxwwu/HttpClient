@@ -24,3 +24,9 @@ int main()
 	printf("%s\n", response.getData());
 }
 ```
+
+# sample2
+```cpp
+EasyResponse easyResponse = easyHttpGet(url);
+cout << easyResponse.statusCode << endl;
+```
