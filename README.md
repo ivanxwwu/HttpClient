@@ -4,11 +4,23 @@
 
 # sample1
 ```cpp
-#include "HttpRequest.h"
 #include <iostream>
+#include "HttpClient.h"
+#include "HttpPost.h"
+#include "HttpResponse.h"
 using namespace std;
-int main() {
-    
+#ifdef _DEBUG
+#pragma comment(lib, "HttpClientD.lib")
+#else
+#pragma comment(lib, "HttpCLient.lib")
+#endif
+
+int main()
+{
+	HttpClient client;
+	HttpRequest& request = HttpPost("http://www.baidu.com", 3);
+	HttpResponse response = client.exec(request);
+	printf("%d\n", response.getStatusCode());
+	printf("%s\n", response.getData());
 }
-  cout << "helloworld" << endl;
 ```
